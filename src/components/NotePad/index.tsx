@@ -8,7 +8,7 @@ export function NotePad({color}: NotePadProps){
 
     return (
         <Container draggable $color={color}>
-                <TextArea spellCheck={false} >This is how a Note on Note.me looks like! Very Simple, clean and aesthetic! 😍</TextArea>
+                <TextArea placeholder="Type your note..." spellCheck={false} >This is how a Note on Note.me looks like! Very Simple, clean and aesthetic! 😍</TextArea>
                 <span>Feb, 10 2022</span>
         </Container>
     );

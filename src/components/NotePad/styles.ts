@@ -38,9 +38,6 @@ export const Container = styled.div<{$color: "yellow" | "orange" | "lilac" | "gr
 
     overflow: hidden;
 
-    :drag
-  
-
     span{
         font-size: 0.875rem;
         color: var(--midnight)
