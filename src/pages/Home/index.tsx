@@ -9,7 +9,6 @@ export function Home(){
         <Container>
             <Carrousel />
             <Login />
-
         </Container>
     );
 }
